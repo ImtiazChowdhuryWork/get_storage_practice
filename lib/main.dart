@@ -5,6 +5,7 @@ import 'package:get_storage/get_storage.dart';
 import 'package:get_storage_practice/controller/controllers_binding/controllers_binding.dart';
 import 'package:get_storage_practice/helper/di_helper.dart';
 import 'package:get_storage_practice/views/home_screen.dart';
+import 'package:get_storage_practice/views/offline_notes_home_screen.dart';
 
 void main() async {
   ///This ensures that flutter engine is ready for "bindings intializations"
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
         return GetMaterialApp(
           debugShowCheckedModeBanner: false,
           initialBinding: ControllersBindings(),
-          home: HomeScreen(),
+          home: OfflineNotesHomeScreen(),
         );
       },
     );
