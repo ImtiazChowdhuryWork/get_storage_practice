@@ -3,7 +3,7 @@ import 'dart:developer';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:get_storage_practice/helper/constants/app_user_constants.dart';
+import 'package:get_storage_practice/constants/app_user_constants.dart';
 import 'package:get_storage_practice/helper/di_helper.dart';
 import 'package:get_storage_practice/helper/ui_helper.dart';
 
